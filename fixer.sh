@@ -5,3 +5,4 @@ wget https://repo.jetlicense.com/ubuntu/dists/focal/stable/main/binary-amd64/jet
 dpkg -i jetbackup5-cpanel-5.3.9-126_amd64.deb
 update_jetbackup
 service jetbackup5d status
+mv /etc/cron.d/jetapps /root/jetappsbackup
